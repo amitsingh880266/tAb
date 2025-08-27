@@ -1,0 +1,48 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Metro
+.expo/
+.expo-shared/
+.expo-cache/
+.expo-env.d.ts
+
+# macOS
+.DS_Store
+
+# Xcode
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/*.xcworkspace
+ios/*.xcuserdata
+ios/DerivedData/
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+*.apk
+*.keystore
+
+# VSCode
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+.env
+coverage/
+*.iml
