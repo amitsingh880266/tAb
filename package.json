@@ -1,5 +1,5 @@
 {
-  "name": "tAb",
+  "name": "tab",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,14 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@react-navigation/native": "6.1.18",
+    "@react-navigation/stack": "6.4.1",
     "react": "18.1.0",
-    "react-native": "0.70.10"
+    "react-native": "0.70.10",
+    "react-native-gesture-handler": "^2.9.0",
+    "react-native-image-picker": "4.10.3",
+    "react-native-safe-area-context": "3.4.1",
+    "react-native-screens": "3.18.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
