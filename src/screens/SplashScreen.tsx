@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { View, Image, StyleSheet } from "react-native";
 import Loader from "../components/Loader";
 
+import styles from "./splashScreenStyles";
+
 const SplashScreen = ({ navigation }: any) => {
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -23,25 +25,5 @@ const SplashScreen = ({ navigation }: any) => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  image: {
-    width: "80%",
-    height: "80%",
-  },
-  loaderWrapper: {
-    position: "absolute",
-    bottom: 40,
-    left: 30,
-    right: 30,
-    paddingHorizontal: 20,
-  },
-});
 
 export default SplashScreen;

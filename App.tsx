@@ -7,7 +7,6 @@ import WelcomeScreen from "./src/screens/WelcomeScreen";
 import PhotoScreen from "./src/screens/PhotoScreen";
 import PreviewScreen from "./src/screens/PreviewScreen";
 import ProfileScreen from "./src/screens/ProfileScreen";
-import CompletionScreen from "./src/screens/CompletionScreen";
 
 const Stack = createStackNavigator();
 
@@ -23,7 +22,6 @@ const App = () => {
         <Stack.Screen name="PhotoScreen" component={PhotoScreen} />
         <Stack.Screen name="PreviewScreen" component={PreviewScreen} />
         <Stack.Screen name="ProfileScreen" component={ProfileScreen} />
-        <Stack.Screen name="CompletionScreen" component={CompletionScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -1,6 +1,8 @@
 import React from "react";
-import { View, Image, StyleSheet, Text } from "react-native";
+import { View, Image, Text } from "react-native";
 import Loader from "../components/Loader";
+
+import styles from "./previewScreenStyles";
 
 const PreviewScreen = ({ route, navigation }: any) => {
   const { photo } = route.params;
@@ -17,35 +19,5 @@ const PreviewScreen = ({ route, navigation }: any) => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#fff",
-    paddingHorizontal: 24,
-  },
-  image: {
-    width: 200,
-    height: 200,
-    marginBottom: 24,
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: "600",
-    color: "#000",
-    textAlign: "center",
-  },
-  subtitle: {
-    fontSize: 16,
-    color: "#000",
-    textAlign: "center",
-  },
-  loaderWrapper: {
-    width: "80%",
-    marginTop: 16,
-  },
-});
 
 export default PreviewScreen;
